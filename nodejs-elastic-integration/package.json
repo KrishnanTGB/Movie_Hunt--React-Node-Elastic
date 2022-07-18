@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-elasticsearch",
+  "version": "1.0.0",
+  "description": "Node JS with Elasticsearch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon search.js"
+  },
+  "author": "Krishnan T G B",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.15.0",
+    "cors": "^2.8.5",
+    "elasticsearch": "^16.7.2",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
